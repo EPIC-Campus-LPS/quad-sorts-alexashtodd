@@ -157,11 +157,9 @@ public class QuadSorts {
                 }
         }
         return arr;
-    } // todo: make sure this works and make sure to understand it(form dads help)
-
+    }
     public static void main(String[] args) {
-        // 1. Create an unsorted integer array
-        // Todo: make sure unsorted array stays the same so it can be used mutiable times.
+        // 1. Create an unsorted integer array.
         int[] unsortedArray = {64, 34, 25, 12, 22, 11, 90};
         System.out.println("Unsorted array: " + Arrays.toString(unsortedArray));
 
